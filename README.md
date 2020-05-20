@@ -34,6 +34,10 @@ This project is about understanding how to build a layout that is fully focused 
 
 ## In Action:
 
+### Wireframe:
+
+<img src="/images/20200520_161138.jpg" alt="Wireframe Of Project" height=auto width=75%/>
+
 ### Original Comp Layout:
 
 <img src="https://frontend.turing.io/assets/images/static-comp-challenge-2.jpg" alt="Desktop layout comp" height=auto width=75%/>
