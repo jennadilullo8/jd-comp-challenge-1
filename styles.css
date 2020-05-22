@@ -8,7 +8,7 @@ body {
 }
 
 .top-bar {
-  background-color: #733036;
+  background-color: #F23D6D;
   grid-area: top-bar;
   display: grid;
   padding: 10px;
@@ -20,6 +20,8 @@ body {
 }
 
 .share-button, .recipes-button, .saved-recipes-button {
+  background-color: #F23D6D;
+  border: none;
   margin: 10px;
 }
 
