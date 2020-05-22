@@ -11,8 +11,14 @@ body {
 .top-bar {
   background-color: #F23D6D;
   grid-area: top-bar;
-  display: grid;
   padding: 10px;
+  display: flex;
+  align-content: flex-end;
+}
+
+.side-top-bar {
+  background-color: #F23D6D;
+  grid-area: side-top-bar;
 }
 
 .button-shares-recipe {
@@ -20,10 +26,16 @@ body {
   align-items: flex-end;
 }
 
-.share-button, .book-button, .saved-recipe-button {
+.share-button, .book-button, .saved-recipe-button, .drop-down-menu {
   background-color: #F23D6D;
   border: none;
   margin: 10px;
+}
+
+.username-and-company-name {
+  background-color: #F23D6D;
+  display: flex;
+  justify-content: flex-end;
 }
 
 p {
