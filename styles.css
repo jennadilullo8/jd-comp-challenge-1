@@ -21,6 +21,10 @@ body {
   grid-area: side-top-bar;
 }
 
+.img-username {
+  padding: 10px;
+}
+
 .button-shares-recipe {
   display: flex;
   align-items: flex-end;
