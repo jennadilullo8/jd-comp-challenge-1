@@ -1,8 +1,9 @@
 body {
   display: grid;
-  grid-template-rows: 1fr 2fr 400px auto;
+  grid-template-columns: 4fr;
+  grid-template-rows: 100px auto;
   grid-template-areas:
-    "top-bar top-bar"
+    "top-bar side-top-bar"
     "share-articles share-articles";
   font-family: "Montserrat", sans-serif;
 }
