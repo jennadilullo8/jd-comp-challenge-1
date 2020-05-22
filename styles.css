@@ -1,0 +1,35 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr 2fr 400px auto;
+  grid-template-areas:
+    "top-bar top-bar"
+    "share-articles share-articles";
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-bar {
+  background-color: #733036;
+  grid-area: top-bar;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+}
+
+.button-shares-recipe {
+  display: flex;
+  align-items: flex-end;
+}
+
+.share-button, .recipes-button, .saved-recipes-button {
+  margin: 10px;
+}
+
+p {
+  color: white;
+  font-size: 10px;
+}
+
+.share-articles {
+  background-color: #CEECF2;
+  grid-area: share-articles;
+}
