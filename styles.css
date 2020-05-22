@@ -19,7 +19,7 @@ body {
   align-items: flex-end;
 }
 
-.share-button, .recipes-button, .saved-recipes-button {
+.share-button, .book-button, .saved-recipe-button {
   background-color: #F23D6D;
   border: none;
   margin: 10px;
@@ -27,7 +27,7 @@ body {
 
 p {
   color: white;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .share-articles {
