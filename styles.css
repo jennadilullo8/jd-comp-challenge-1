@@ -91,3 +91,10 @@ p {
   height: max-content;
   padding: 10px;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 45em) {
+  .saved-recipes-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
