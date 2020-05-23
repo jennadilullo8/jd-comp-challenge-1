@@ -6,13 +6,16 @@ body {
   grid-template-areas:
     "top-bar side-top-bar"
     "top-bar company-logo"
-    "saved-recipes saved-recipes";
+    "saved-recipes-h1 saved-recipes-h1"
+    "saved-recipes-section saved-recipes-section";
   font-family: "Montserrat", sans-serif;
 }
 
 p {
-  color: white;
+  color: black;
   font-size: 12px;
+  line-height: 2.2em;
+  margin: 0;
 }
 
 .share-button, .save-recipe-button, .saved-recipe-button, .drop-down-menu {
@@ -63,7 +66,27 @@ p {
 }
 
 /* SAVED RECIPES SECTION */
-.saved-recipes {
+.saved-recipes-h1 {
   background-color: #CEECF2;
-  grid-area: saved-recipes;
+  margin-right: -155px;
+  padding: 10px;
+}
+
+.saved-recipes-section {
+  background-color: #CEECF2;
+  grid-area: saved-recipes-section;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.first-saved-recipe {
+  display: flex;
+  flex-direction: column;
+  border: solid 2px;
+  background-color: #F2F2F2;
+  height: max-content;
+  padding: 10px;
 }
