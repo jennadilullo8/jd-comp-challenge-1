@@ -6,7 +6,7 @@ body {
   grid-template-areas:
     "top-bar side-top-bar"
     "top-bar company-logo"
-    "share-articles share-articles";
+    "saved-recipes saved-recipes";
   font-family: "Montserrat", sans-serif;
 }
 
@@ -15,7 +15,7 @@ p {
   font-size: 12px;
 }
 
-.share-button, .book-button, .saved-recipe-button, .drop-down-menu {
+.share-button, .save-recipe-button, .saved-recipe-button, .drop-down-menu {
   background-color: #F23D6D;
   border: none;
   margin: 10px;
@@ -62,8 +62,8 @@ p {
   padding: 10px;
 }
 
-/* SHARE ARTICLES SECTION */
-.share-articles {
+/* SAVED RECIPES SECTION */
+.saved-recipes {
   background-color: #CEECF2;
-  grid-area: share-articles;
+  grid-area: saved-recipes;
 }
