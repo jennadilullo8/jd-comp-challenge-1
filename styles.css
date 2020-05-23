@@ -1,3 +1,4 @@
+/* GLOBAL RULES */
 body {
   display: grid;
   grid-template-columns: 4fr;
@@ -7,6 +8,11 @@ body {
     "top-bar company-logo"
     "share-articles share-articles";
   font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: white;
+  font-size: 12px;
 }
 
 .top-bar {
@@ -51,11 +57,6 @@ body {
   background-color: #F23D6D;
   display: flex;
   justify-content: flex-end;
-}
-
-p {
-  color: white;
-  font-size: 12px;
 }
 
 .share-articles {
