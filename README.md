@@ -24,7 +24,11 @@ This project is about understanding how to build a layout that is fully focused 
 
 ## Wins
 
+- Understanding the differences between `grid` and `flex-box` and when to use one over the other
+
 ## Challenges
+
+- Alining every element on the page to look just like the original comp layout
 
 ## Technologies Used
 
