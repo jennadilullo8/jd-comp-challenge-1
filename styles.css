@@ -1,3 +1,4 @@
+/* GLOBAL RULES */
 body {
   display: grid;
   grid-template-columns: 4fr;
@@ -9,6 +10,18 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+p {
+  color: white;
+  font-size: 12px;
+}
+
+.share-button, .book-button, .saved-recipe-button, .drop-down-menu {
+  background-color: #F23D6D;
+  border: none;
+  margin: 10px;
+}
+
+/* TOP BAR SECTION */
 .top-bar {
   background-color: #F23D6D;
   grid-area: top-bar;
@@ -17,12 +30,29 @@ body {
   align-content: flex-end;
 }
 
+.button-shares-recipe {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* SIDE TOP BAR SECTION */
 .side-top-bar {
   background-color: #F23D6D;
   grid-area: side-top-bar;
   height: 40px;
 }
 
+.username-and-company-name {
+  background-color: #F23D6D;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-username {
+  padding: 10px;
+}
+
+/* COMPANY LOGO SECTION */
 .company-logo {
   background-color: #F23D6D;
   grid-area: company-logo;
@@ -32,32 +62,7 @@ body {
   padding: 10px;
 }
 
-.img-username {
-  padding: 10px;
-}
-
-.button-shares-recipe {
-  display: flex;
-  align-items: flex-end;
-}
-
-.share-button, .book-button, .saved-recipe-button, .drop-down-menu {
-  background-color: #F23D6D;
-  border: none;
-  margin: 10px;
-}
-
-.username-and-company-name {
-  background-color: #F23D6D;
-  display: flex;
-  justify-content: flex-end;
-}
-
-p {
-  color: white;
-  font-size: 12px;
-}
-
+/* SHARE ARTICLES SECTION */
 .share-articles {
   background-color: #CEECF2;
   grid-area: share-articles;
