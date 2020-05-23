@@ -82,7 +82,7 @@ p {
   padding: 10px;
 }
 
-.first-saved-recipe {
+.saved-recipe {
   display: flex;
   flex-direction: column;
   border: solid 2px;
