@@ -21,7 +21,7 @@ p {
 .share-button, .save-recipe-button, .saved-recipe-button, .drop-down-menu {
   background-color: #F23D6D;
   border: none;
-  margin: 10px;
+  margin: 5px;
 }
 
 /* TOP BAR SECTION */
@@ -52,7 +52,7 @@ p {
 }
 
 .img-username {
-  padding: 10px;
+  padding: 5px;
 }
 
 /* COMPANY LOGO SECTION */
@@ -68,7 +68,7 @@ p {
 /* SAVED RECIPES SECTION */
 .saved-recipes-h1 {
   background-color: #CEECF2;
-  margin-right: -155px;
+  margin-right: -138px;
   padding: 10px;
 }
 
@@ -85,6 +85,7 @@ p {
 .saved-recipe {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   border: solid 2px;
   background-color: #F2F2F2;
   height: max-content;
