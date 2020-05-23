@@ -6,19 +6,22 @@ body {
   grid-template-areas:
     "top-bar side-top-bar"
     "top-bar company-logo"
-    "share-articles share-articles";
+    "saved-recipes-h1 saved-recipes-h1"
+    "saved-recipes-section saved-recipes-section";
   font-family: "Montserrat", sans-serif;
 }
 
 p {
-  color: white;
+  color: black;
   font-size: 12px;
+  line-height: 2.2em;
+  margin: 0;
 }
 
-.share-button, .book-button, .saved-recipe-button, .drop-down-menu {
+.share-button, .save-recipe-button, .saved-recipe-button, .drop-down-menu {
   background-color: #F23D6D;
   border: none;
-  margin: 10px;
+  margin: 5px;
 }
 
 /* TOP BAR SECTION */
@@ -49,7 +52,7 @@ p {
 }
 
 .img-username {
-  padding: 10px;
+  padding: 5px;
 }
 
 /* COMPANY LOGO SECTION */
@@ -62,8 +65,29 @@ p {
   padding: 10px;
 }
 
-/* SHARE ARTICLES SECTION */
-.share-articles {
+/* SAVED RECIPES SECTION */
+.saved-recipes-h1 {
   background-color: #CEECF2;
-  grid-area: share-articles;
+  margin-right: -138px;
+  padding: 10px;
+}
+
+.saved-recipes-section {
+  background-color: #CEECF2;
+  grid-area: saved-recipes-section;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.saved-recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid 2px;
+  background-color: #F2F2F2;
+  height: max-content;
+  padding: 10px;
 }
