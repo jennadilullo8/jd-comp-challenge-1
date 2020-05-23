@@ -4,6 +4,7 @@ body {
   grid-template-rows: 100px auto;
   grid-template-areas:
     "top-bar side-top-bar"
+    "top-bar company-logo"
     "share-articles share-articles";
   font-family: "Montserrat", sans-serif;
 }
@@ -19,6 +20,16 @@ body {
 .side-top-bar {
   background-color: #F23D6D;
   grid-area: side-top-bar;
+  height: 40px;
+}
+
+.company-logo {
+  background-color: #F23D6D;
+  grid-area: company-logo;
+  display: flex;
+  margin-top: -60px;
+  justify-content: center;
+  padding: 10px;
 }
 
 .img-username {
