@@ -98,3 +98,22 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media screen and (max-width: 35em) {
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "top-bar"
+    "saved-recipes-h1"
+    "saved-recipes-section";
+  }
+
+  .saved-recipes-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .company-logo, .side-top-bar {
+    display: none;
+  }
+}
