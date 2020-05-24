@@ -14,16 +14,20 @@ body {
 p {
   color: black;
   font-size: 12px;
-  line-height: 2.2em;
-  margin: 0;
+  /* line-height: 1em;
+  margin: 5px; */
+}
+
+h3, h5, h4 {
+  line-height: 1.5em;
+  margin: 5px;
 }
 
 .share-button, .save-recipe-button, .saved-recipe-button, .drop-down-menu {
   background-color: #F23D6D;
   border: none;
-  margin: 5px;
+  padding: 10px;
 }
-
 /* TOP BAR SECTION */
 .top-bar {
   background-color: #F23D6D;
@@ -52,7 +56,7 @@ p {
 }
 
 .img-username {
-  padding: 5px;
+  padding: 10px;
 }
 
 /* COMPANY LOGO SECTION */
@@ -68,7 +72,7 @@ p {
 /* SAVED RECIPES SECTION */
 .saved-recipes-h1 {
   background-color: #CEECF2;
-  margin-right: -138px;
+  grid-area: saved-recipes-h1;
   padding: 10px;
 }
 
@@ -84,22 +88,32 @@ p {
 
 .saved-recipe {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   flex-direction: column;
-  justify-content: center;
   border: solid 2px;
   background-color: #F2F2F2;
-  height: max-content;
+  max-height: max-content;
   padding: 10px;
+
 }
 
+.what-button {
+  position: relative;
+  top: 50px;
+  left: 10px;
+}
+
+
+
 /* MEDIA QUERIES */
-@media screen and (max-width: 45em) {
+@media screen and (max-width: 50em) {
   .saved-recipes-section {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 35em) {
+@media screen and (max-width: 30em) {
   body {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
