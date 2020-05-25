@@ -1,3 +1,97 @@
+/* RESET FILE CSS */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+ins {
+    background-color: #00000;
+    color: #00000;
+    text-decoration: none;
+}
+
+mark {
+    background-color: #00000;
+    color: #00000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+
+hr {
+    display:block;
+    height: 10px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0px;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+
 /* GLOBAL RULES */
 body {
   display: grid;
@@ -14,18 +108,20 @@ body {
 p {
   color: black;
   font-size: 12px;
+  padding: 5px;
 }
 
 h3, h5, h4 {
   line-height: 1.5em;
-  margin: 5px;
+  margin: 10px;
 }
 
 .share-button, .save-recipe-button, .saved-recipe-button, .drop-down-menu {
   background-color: #F23D6D;
   border: none;
-  padding: 10px;
+  padding: 5px;
 }
+
 /* TOP BAR SECTION */
 .top-bar {
   background-color: #F23D6D;
@@ -49,12 +145,13 @@ h3, h5, h4 {
 
 .username-and-company-name {
   background-color: #F23D6D;
+  padding: 10px;
   display: flex;
   justify-content: flex-end;
 }
 
 .img-username {
-  padding: 10px;
+  padding: 2px;
 }
 
 /* COMPANY LOGO SECTION */
@@ -71,7 +168,8 @@ h3, h5, h4 {
 .saved-recipes-h1 {
   background-color: #CEECF2;
   grid-area: saved-recipes-h1;
-  padding: 10px;
+  padding: 20px;
+  font-size: 20px;
 }
 
 .saved-recipes-section {
