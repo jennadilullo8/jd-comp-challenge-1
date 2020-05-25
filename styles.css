@@ -14,8 +14,6 @@ body {
 p {
   color: black;
   font-size: 12px;
-  /* line-height: 1em;
-  margin: 5px; */
 }
 
 h3, h5, h4 {
@@ -97,14 +95,6 @@ h3, h5, h4 {
   padding: 10px;
 
 }
-
-.what-button {
-  position: relative;
-  top: 50px;
-  left: 10px;
-}
-
-
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 50em) {
