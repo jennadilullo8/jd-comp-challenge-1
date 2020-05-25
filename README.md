@@ -21,10 +21,12 @@ This project is about understanding how to build a layout that is fully focused 
 
 - Properly write HTML tags and elements
 - Properly use `flex-box` and `grid`
+- How to add a reset file in CSS
 
 ## Wins
 
 - Understanding the differences between `grid` and `flex-box` and when to use one over the other
+- Adding a reset file and reconfiguring the website to look a certain way
 
 ## Challenges
 
@@ -47,3 +49,5 @@ This project is about understanding how to build a layout that is fully focused 
 <img src="https://frontend.turing.io/assets/images/static-comp-challenge-2.jpg" alt="Desktop layout comp" height=auto width=75%/>
 
 ### My Version:
+
+<img src="http://g.recordit.co/2KqsawW3nZ.gif" alt="gif of my version" height=auto width=75%/>
